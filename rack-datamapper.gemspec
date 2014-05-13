@@ -22,10 +22,10 @@ Gem::Specification.new do |s|
   s.files += Dir['lib/**/*']
   s.files += Dir['spec/**/*']
   s.test_files += Dir['spec/**/*_spec.rb']
-  s.add_dependency 'dm-core', '~> 1.0.0'
-  s.add_dependency 'rack', '~> 1.0'
-  s.add_development_dependency 'dm-migrations', '~> 1.0.0'
-  s.add_development_dependency 'dm-transactions', '~> 1.0.0'
-  s.add_development_dependency 'dm-sqlite-adapter', '~> 1.0.0'
-  s.add_development_dependency 'rspec', '~> 1.3.0'
+  s.add_dependency 'dm-core', '>= 1.0.0'
+  s.add_dependency 'rack', '>= 1.0'
+  s.add_development_dependency 'dm-migrations', '>= 1.0.0'
+  s.add_development_dependency 'dm-transactions', '>= 1.0.0'
+  s.add_development_dependency 'dm-sqlite-adapter', '>= 1.0.0'
+  s.add_development_dependency 'rspec', '>= 1.3.0'
 end
